@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+       text-align: center;
+        border-collapse: collapse ;  
+    } 
+     
+   td {
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;  /* Smooth transition for scaling */
+}
+td:hover {
+    transform: scale(1.2);/* Scale up the cell */
+    background-color: #f0f0f0; /* Optional background change */
+}
+.container {
+            width: 100%; /* Optional: to make the container span full width */
+            text-align: center; /* Centers the inline element horizontally */
+            border: 2px dashed #ccc; /* To visualize the container */
+        }
+
+        .inline-element {
+            display: inline; /* Inline behavior */
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+    .one{
+        border:none;
+
+    }
+     .one:hover{
+        
+        transform: none; 
+    background-color:none;
+    pointer-events: none;
+    background-color: transparent;
+}
+    
+    .two{
+        border:none;
+    }
+    .two:hover{
+       
+        transform: none;  /* Scale up the cell */
+    background-color:none;
+    pointer-events: none;
+    background-color: transparent;
+    }
+    .three{
+        border:none;
+    }
+    .three:hover{
+      
+        transform: none;  /* Scale up the cell */
+    background-color:none;
+    pointer-events: none;
+    background-color: transparent;
+    }
+    #second{
+        background-color: #D180B6;
+    }
+    
+    #third{
+        background-color: #E74976; 
+    }
+    span{
+        background-color: aliceblue;
+        color:#EE4D72;
+        font-weight: 800;
+        text-align: center;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <span class="inline_element">PERIODIC TABLE</span>
+    </div>
+    
+    <br>
+    <br>
+    <table align="center">
+      <tr>
+        
+        <td  style="background-color:#B7DEBD">H</td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td class="one"></td>
+        <td style="background-color: #94A2D2;">He</td>
+       
+      </tr>
+      <tr>
+        <td style="background-color: #E74976;">Li</td>
+        <td style="background-color:#FDBB1B ;" >Be</td>
+        <td class="two"></td>
+        <td class="two"></td>
+        <td class="two"></td>
+        <td class="two"></td>
+        <td  class="two"></td>
+        <td class="two"></td>
+        <td class="two"></td>
+        <td class="two"></td>
+        <td class="two"></td>
+        <td class="two"></td>
+        <td style="background-color:#FAD64C">B</td>
+        <td style="background-color:#B7DEBD">C</td>
+        <td style="background-color:#B7DEBD">N</td>
+        <td style="background-color:#B7DEBD">O</td>
+        <td style="background-color: #9ED2E0;">F</td>
+        <td style="background-color: #94A2D2;">Ne</td>
+      </tr>
+      <tr>
+        <td style="background-color: #E74976;">Na</td>
+        <td style="background-color:#FDBB1B ;">Mg</td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td class="three"></td>
+        <td style="background-color: #6BB2D6;">Al</td>
+        <td style="background-color:#FAD64C">Si</td>
+        <td style="background-color:#B7DEBD">P</td>
+        <td style="background-color:#B7DEBD">S</td>
+        <td style="background-color: #9ED2E0;">Cl</td>
+        <td style="background-color: #94A2D2;">Ar</td>
+      </tr>
+      <!-- stop -->
+      <tr>
+        <td style="background-color: #E74976;">K</td>
+        <td style="background-color:#FDBB1B ;">Ca</td>
+        <td style="background-color:#FAD64C">Sc</td>
+        <td style="background-color:#FAD64C">Ti</td>
+        <td style="background-color:#FAD64C">V</td>
+        <td style="background-color:#FAD64C">Cr</td>
+        <td style="background-color:#FAD64C">Mn</td>
+        <td style="background-color:#FAD64C">Fe</td>
+        <td style="background-color:#FAD64C">Co</td>
+        <td style="background-color:#FAD64C">Ni</td>
+        <td style="background-color:#FAD64C">Cu</td>
+        <td style="background-color:#FAD64C">Zn</td>
+        <td style="background-color: #6BB2D6;">Ga</td>
+        <td style="background-color:#FAD64C">Ge</td>
+        <td style="background-color:#FAD64C">As</td>
+        <td style="background-color:#B7DEBD">Se</td>
+        <td style="background-color: #9ED2E0;">Br</td>
+        <td style="background-color: #94A2D2;">Kr</td>
+      </tr>
+      <tr>
+        <td style="background-color: #E74976;">Rb</td>
+        <td style="background-color:#FDBB1B ;">Sr</td>
+        <td style="background-color:#FAD64C">Y</td>
+        <td style="background-color:#FAD64C">Zr</td>
+        <td style="background-color:#FAD64C">Nb</td>
+        <td style="background-color:#FAD64C">Mo</td>
+        <td style="background-color:#FAD64C">Te</td>
+        <td style="background-color:#FAD64C">Ru</td>
+        <td style="background-color:#FAD64C">Rh</td>
+        <td style="background-color:#FAD64C">Pd</td>
+        <td style="background-color:#FAD64C">Ag</td>
+        <td style="background-color:#FAD64C">Cd</td>
+        <td style="background-color: #6BB2D6;">In</td>
+        <td style="background-color: #6BB2D6;">Sn</td>
+        <td style="background-color:#FAD64C">Sb</td>
+        <td style="background-color:#FAD64C">Te</td>
+        <td style="background-color: #9ED2E0;">I</td>
+        <td style="background-color: #94A2D2;">Xe</td>
+      </tr>
+      <tr>
+        <td style="background-color: #E74976;">Cs</td>
+        <td style="background-color:#FDBB1B ;">Ba</td>
+        <td style="background-color:#D180B6;">La-Lu</td>
+        <td style="background-color:#FAD64C">Hf</td>
+        <td style="background-color:#FAD64C">Ta</td>
+        <td style="background-color:#FAD64C">W</td>
+        <td style="background-color:#FAD64C">Re</td>
+        <td style="background-color:#FAD64C">Os</td>
+        <td style="background-color:#FAD64C">Ir</td>
+        <td style="background-color:#FAD64C">Pt</td>
+        <td style="background-color:#FAD64C">Au</td>
+        <td style="background-color:#FAD64C">Hg</td>
+        <td style="background-color: #6BB2D6;">Tl</td>
+        <td style="background-color: #6BB2D6;">Pb</td>
+        <td style="background-color: #6BB2D6;">Bi</td>
+        <td style="background-color:#FAD64C">Po</td>
+        <td style="background-color: #9ED2E0;">At</td>
+        <td style="background-color: #94A2D2;">Rn</td>
+      </tr>
+      <tr>
+        <td style="background-color: #E74976;">Fr</td>
+        <td style="background-color:#FDBB1B ;">Ra</td>
+        <td style="background-color:#EE4D72;">Ac-Lr</td>
+        <td style="background-color:#FAD64C">Rf</td>
+        <td style="background-color:#FAD64C">Db</td>
+        <td style="background-color:#FAD64C">Sg</td>
+        <td style="background-color:#FAD64C">Bh</td>
+        <td style="background-color:#FAD64C">Hs</td>
+        <td style="background-color:#FAD64C">Mt</td>
+        <td style="background-color:#FAD64C">Ds</td>
+        <td style="background-color:#FAD64C">Rg</td>
+        <td style="background-color:#FAD64C">Cn</td>
+        <td style="background-color: #6BB2D6;">Nh</td>
+        <td  style="background-color: #6BB2D6;">Fl</td>
+        <td style="background-color: #6BB2D6;">Me</td>
+        <td style="background-color: #6BB2D6;">Lv</td>
+        <td style="background-color: #9ED2E0;">Ts</td>
+        <td style="background-color: #94A2D2;">Og</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table align="center">
+        <tr id="second">
+            <td>La</td>
+            <td>Ce</td>
+            <td>Pr</td>
+            <td>Nd</td>
+            <td>Pm</td>
+            <td>Sm</td>
+            <td>Eu</td>
+            <td>Gd</td>
+            <td>Tb</td>
+            <td>Dy</td>
+            <td>Ho</td>
+            <td>Er</td>
+            <td>Tm</td>
+            <td>Yb</td>
+            <td>Lu</td>
+            
+        </tr>
+    </table>
+    <br>
+    <table align="center">
+        <tr id="third">
+            <td>Ac</td>
+            <td>Th</td>
+            <td>Pa</td>
+            <td>U</td>
+            <td>Np</td>
+            <td>Pu</td>
+            <td>Am</td>
+            <td>Cm</td>
+            <td>Bk</td>
+            <td>Cf</td>
+            <td>Es</td>
+            <td>Fm</td>
+            <td>Md</td>
+            <td>No</td>
+            <td>Lf</td>
+        </tr>
+    </table>
+</body>
+</html>
